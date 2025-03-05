@@ -9,7 +9,10 @@ RUN apt-get update && apt-get install -y \
     sqlite3 \
     vim \
     git \
+<<<<<<< HEAD
     dos2unix \
+=======
+>>>>>>> 646968140642bcdf033161339561670e06b15960
     libsqlite3-dev \
     && rm -rf /var/lib/apt/lists/*
 
